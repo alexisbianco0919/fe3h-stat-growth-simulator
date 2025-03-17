@@ -58,19 +58,35 @@ def simulate_one_hundred_iterations(blank_template, character_metadata, target_l
             leveled_metadata = level_to_target(temp_level_metadata, target_level)
             blank_template[k] += leveled_metadata["character_stats"][k]
 
-    print(character_metadata["name"] + ": Level " + str(target_level) + " Average")
+    # print(character_metadata["name"] + ": Level " + str(target_level) + " Average")
+
     for k in character_metadata["character_stats"].keys():
         blank_template[k] = math.ceil(blank_template[k] / 100)
-        print(k + ": " + str(blank_template[k]))
+        # print(k + ": " + str(blank_template[k]))
     
     return blank_template
 
+def simulate_recruitment_stats(blank_template, character_metadata, target_level):
+    ret_stats = {}
+    ret_stats[1] = character_metadata["character_stats"]
+    reset_blank_template = copy.deepcopy(blank_template)
+
+    for level in range(2, target_level + 1):
+        ret_stats[level] = simulate_one_hundred_iterations(reset_blank_template, character_metadata, level)
+        reset_blank_template = copy.deepcopy(blank_template)
+    
+    print(ret_stats)
+    return ret_stats
+
+
 if __name__ == "__main__":
-    character_metadata = ADONIS_METADATA
+    character_metadata = IRIS_METADATA
     blank_template = BLANK_STARTING_STATS
 
     # level_to_target(character_metadata, 40)
 
-    simulate_one_hundred_iterations(blank_template, character_metadata, 40)
+    # simulate_one_hundred_iterations(blank_template, character_metadata, 40)
+
+    simulate_recruitment_stats(blank_template, character_metadata, 40)
 
     
