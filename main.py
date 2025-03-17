@@ -32,7 +32,11 @@ def simulate_level_up(character_metadata, current_class_growths):
     return temp_metadata  
 
 def level_up_stats_with_classes(character_metadata):
-    if character_metadata["current_level"] >= 10:
+    if character_metadata["current_level"] >= 30:
+        return simulate_level_up(character_metadata, character_metadata["master_class_growths"])  
+    elif character_metadata["current_level"] >= 20:
+        return simulate_level_up(character_metadata, character_metadata["advanced_class_growths"])  
+    elif character_metadata["current_level"] >= 10:
         return simulate_level_up(character_metadata, character_metadata["intermediate_class_growths"])    
     elif character_metadata["current_level"] >= 5:
         return simulate_level_up(character_metadata, character_metadata["beginner_class_growths"])    
@@ -62,7 +66,7 @@ def simulate_one_hundred_iterations(blank_template, character_metadata, target_l
     return blank_template
 
 if __name__ == "__main__":
-    character_metadata = RAINE_METADATA
+    character_metadata = ADONIS_METADATA
     blank_template = BLANK_STARTING_STATS
 
     # level_to_target(character_metadata, 40)

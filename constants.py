@@ -7,7 +7,7 @@ RAINE_BASE_GROWTHS = {
     "str": 50,
     "mag": 45,
     "dex": 45,
-    "spd": 45,
+    "spd": 50,
     "lck": 35,
     "def": 35,
     "res": 35,
@@ -1128,6 +1128,442 @@ PEGASUS_SOLDIER_CLASS = {
     "cha": 10
 }
 
+# -------- Advanced Classes --------
+
+HIGH_LORD_CLASS = {
+    "hp": 20,
+    "str": 5,
+    "mag": 5,
+    "dex": 5,
+    "spd": 0,
+    "lck": 0,
+    "def": 5,
+    "res": 5,
+    "cha": 10
+}
+
+NABATEAN_CLASS = {
+    "hp": 20,
+    "str": 5,
+    "mag": 5,
+    "dex": 0,
+    "spd": 15,
+    "lck": 0,
+    "def": 5,
+    "res": 5,
+    "cha": 10
+}
+
+WILD_CAVALIER_CLASS = {
+    "hp": 20,
+    "str": 5,
+    "mag": 0,
+    "dex": 5,
+    "spd": 0,
+    "lck": 0,
+    "def": 5,
+    "res": 5,
+    "cha": 10
+}
+
+ARMORED_GENERAL_CLASS = {
+    "hp": 20,
+    "str": 5,
+    "mag": 0,
+    "dex": 0,
+    "spd": 0,
+    "lck": 0,
+    "def": 10,
+    "res": 5,
+    "cha": 10
+}
+
+WYVERN_SAGE_CLASS = {
+    "hp": 20,
+    "str": 0,
+    "mag": 5,
+    "dex": 0,
+    "spd": 10,
+    "lck": 0,
+    "def": 0,
+    "res": 5,
+    "cha": 10
+}
+
+HERO_CLASS = {
+    "hp": 30,
+    "str": 10,
+    "mag": 0,
+    "dex": 0,
+    "spd": 10,
+    "lck": 0,
+    "def": 0,
+    "res": -5,
+    "cha": 5
+}
+
+SWORDMASTER_CLASS = {
+    "hp": 25,
+    "str": 10,
+    "mag": 0,
+    "dex": 0,
+    "spd": 20,
+    "lck": 0,
+    "def": 0,
+    "res": -5,
+    "cha": 5
+}
+
+ASSASSIN_CLASS = {
+    "hp": 20,
+    "str": 0,
+    "mag": 5,
+    "dex": 20,
+    "spd": 20,
+    "lck": 0,
+    "def": 0,
+    "res": 0,
+    "cha": 0
+}
+
+FORTRESS_KNIGHT_CLASS = {
+    "hp": 30,
+    "str": 10,
+    "mag": 0,
+    "dex": 0,
+    "spd": -10,
+    "lck": 0,
+    "def": 15,
+    "res": 0,
+    "cha": 5
+}
+
+PALADIN_CLASS = {
+    "hp": 30,
+    "str": 10,
+    "mag": 0,
+    "dex": 5,
+    "spd": -10,
+    "lck": 5,
+    "def": 5,
+    "res": 5,
+    "cha": 5
+}
+
+WYVERN_RIDER_CLASS = {
+    "hp": 30,
+    "str": 10,
+    "mag": -5,
+    "dex": 0,
+    "spd": 0,
+    "lck": 0,
+    "def": 0,
+    "res": 0,
+    "cha": 5
+}
+
+WARRIOR_CLASS = {
+    "hp": 40,
+    "str": 15,
+    "mag": -5,
+    "dex": 0,
+    "spd": 0,
+    "lck": 0,
+    "def": 0,
+    "res": 0,
+    "cha": 5
+}
+
+SNIPER_CLASS = {
+    "hp": 10,
+    "str": 5,
+    "mag": 0,
+    "dex": 20,
+    "spd": 0,
+    "lck": 10,
+    "def": 0,
+    "res": 0,
+    "cha": 5
+}
+
+GRAPPLER_CLASS = {
+    "hp": 40,
+    "str": 10,
+    "mag": 0,
+    "dex": 10,
+    "spd": 10,
+    "lck": 0,
+    "def": 0,
+    "res": 0,
+    "cha": 5
+}
+
+WARLOCK_CLASS = {
+    "hp": 10,
+    "str": 10,
+    "mag": 5,
+    "dex": 0,
+    "spd": 10,
+    "lck": 0,
+    "def": -5,
+    "res": 5,
+    "cha": 5
+}
+
+BISHOP_CLASS = {
+    "hp": 10,
+    "str": 0,
+    "mag": 10,
+    "dex": 0,
+    "spd": 10,
+    "lck": 10,
+    "def": -5,
+    "res": 5,
+    "cha": 10
+}
+
+PEGASUS_KNIGHT_CLASS = {
+    "hp": 20,
+    "str": 5,
+    "mag": 0,
+    "dex": 0,
+    "spd": 15,
+    "lck": 0,
+    "def": 0,
+    "res": 5,
+    "cha": 10
+}
+
+TRICKSTER_CLASS = {
+    "hp": 20,
+    "str": 0,
+    "mag": 0,
+    "dex": 15,
+    "spd": 20,
+    "lck": 10,
+    "def": 0,
+    "res": 5,
+    "cha": 0
+}
+
+WAR_MONK_CLASS = {
+    "hp": 40,
+    "str": 10,
+    "mag": 5,
+    "dex": 10,
+    "spd": 10,
+    "lck": 0,
+    "def": 0,
+    "res": 5,
+    "cha": 10
+}
+
+DARK_FLYER_CLASS = {
+    "hp": 20,
+    "str": 0,
+    "mag": 5,
+    "dex": 0,
+    "spd": 10,
+    "lck": 0,
+    "def": 0,
+    "res": 10,
+    "cha": 10
+}
+
+VALKYRIE_CLASS = {
+    "hp": 10,
+    "str": 0,
+    "mag": 5,
+    "dex": 0,
+    "spd": -5,
+    "lck": 5,
+    "def": 5,
+    "res": 10,
+    "cha": 5
+}
+
+TROUBADOUR_CLASS = {
+    "hp": 10,
+    "str": 0,
+    "mag": 5,
+    "dex": 0,
+    "spd": -5,
+    "lck": 10,
+    "def": 5,
+    "res": 10,
+    "cha": 10
+}
+
+WING_TAMER_CLASS = {
+    "hp": 20,
+    "str": 0,
+    "mag": 5,
+    "dex": 0,
+    "spd": 10,
+    "lck": 10,
+    "def": 0,
+    "res": 10,
+    "cha": 10
+}
+
+# -------- Master Classes --------
+
+DIVINE_DRAGON_CLASS = {
+    "hp": 20,
+    "str": 10,
+    "mag": 5,
+    "dex": 0,
+    "spd": 20,
+    "lck": 0,
+    "def": 10,
+    "res": 5,
+    "cha": 10
+}
+
+AMAZON_CLASS = {
+    "hp": 20,
+    "str": 5,
+    "mag": 0,
+    "dex": 5,
+    "spd": 5,
+    "lck": 0,
+    "def": 5,
+    "res": 0,
+    "cha": 10
+}
+
+REAPER_CLASS = {
+    "hp": 20,
+    "str": 10,
+    "mag": 0,
+    "dex": 5,
+    "spd": 0,
+    "lck": 0,
+    "def": 10,
+    "res": 5,
+    "cha": 10
+}
+
+LINDWURM_CLASS = {
+    "hp": 20,
+    "str": 0,
+    "mag": 10,
+    "dex": 0,
+    "spd": 10,
+    "lck": 0,
+    "def": 0,
+    "res": 10,
+    "cha": 10
+}
+
+FALCON_KNIGHT_CLASS = {
+    "hp": 30,
+    "str": 15,
+    "mag": 0,
+    "dex": 0,
+    "spd": 20,
+    "lck": 0,
+    "def": 0,
+    "res": 5,
+    "cha": 10
+}
+
+WYVERN_LORD_CLASS = {
+    "hp": 30,
+    "str": 15,
+    "mag": -5,
+    "dex": 0,
+    "spd": 10,
+    "lck": 0,
+    "def": 5,
+    "res": 0,
+    "cha": 5
+}
+
+MORTAL_SAVANT_CLASS = {
+    "hp": 20,
+    "str": 10,
+    "mag": 10,
+    "dex": 0,
+    "spd": -5,
+    "lck": 10,
+    "def": 0,
+    "res": 0,
+    "cha": 5
+}
+
+GREAT_KNIGHT_CLASS = {
+    "hp": 30,
+    "str": 10,
+    "mag": 0,
+    "dex": 0,
+    "spd": -10,
+    "lck": 0,
+    "def": 10,
+    "res": 0,
+    "cha": 5
+}
+
+BOW_KNIGHT_CLASS = {
+    "hp": 15,
+    "str": 5,
+    "mag": 0,
+    "dex": 10,
+    "spd": -5,
+    "lck": 5,
+    "def": 0,
+    "res": 0,
+    "cha": 0
+}
+
+DARK_KNIGHT_CLASS = {
+    "hp": 15,
+    "str": 5,
+    "mag": 10,
+    "dex": 5,
+    "spd": -5,
+    "lck": 0,
+    "def": 5,
+    "res": 10,
+    "cha": 5
+}
+
+HOLY_KNIGHT_CLASS = {
+    "hp": 15,
+    "str": 5,
+    "mag": 10,
+    "dex": 5,
+    "spd": -5,
+    "lck": 10,
+    "def": 5,
+    "res": 10,
+    "cha": 10
+}
+
+WAR_MASTER_CLASS = {
+    "hp": 40,
+    "str": 15,
+    "mag": 0,
+    "dex": 0,
+    "spd": 10,
+    "lck": 0,
+    "def": 0,
+    "res": 0,
+    "cha": 5
+}
+
+GREMORY_CLASS = {
+    "hp": 10,
+    "str": 0,
+    "mag": 10,
+    "dex": 10,
+    "spd": 10,
+    "lck": 0,
+    "def": 0,
+    "res": 5,
+    "cha": 10
+}
+
 # ================= Character Metadata =================
 
 # -------- Player Avatar --------
@@ -1140,7 +1576,9 @@ RAINE_METADATA = {
     "base_growths": RAINE_BASE_GROWTHS,
     "starting_class_growths": TACTICIAN_CLASS,
     "beginner_class_growths": MYRMIDON_CLASS,
-    "intermediate_class_growths": MERCENARY_CLASS
+    "intermediate_class_growths": MERCENARY_CLASS,
+    "advanced_class_growths": NABATEAN_CLASS,
+    "master_class_growths": DIVINE_DRAGON_CLASS,
 }
 
 # -------- Black Eagles --------
@@ -1153,7 +1591,9 @@ GISELLE_METADATA = {
     "base_growths": GISELLE_BASE_GROWTHS,
     "starting_class_growths": HOUSE_LEADER_CLASS,
     "beginner_class_growths": FIGHTER_CLASS,
-    "intermediate_class_growths": LORD_CLASS
+    "intermediate_class_growths": LORD_CLASS,
+    "advanced_class_growths": WILD_CAVALIER_CLASS,
+    "master_class_growths": AMAZON_CLASS
 }
 
 REGINALD_METADATA = {
@@ -1164,7 +1604,9 @@ REGINALD_METADATA = {
     "base_growths": REGINALD_BASE_GROWTHS,
     "starting_class_growths": STUDENT_CLASS,
     "beginner_class_growths": FIGHTER_CLASS,
-    "intermediate_class_growths": ARMORED_KNIGHT_CLASS
+    "intermediate_class_growths": ARMORED_KNIGHT_CLASS,
+    "advanced_class_growths": FORTRESS_KNIGHT_CLASS,
+    "master_class_growths": FORTRESS_KNIGHT_CLASS
 }
 
 CORINNE_METADATA = {
@@ -1175,7 +1617,9 @@ CORINNE_METADATA = {
     "base_growths": CORINNE_BASE_GROWTHS,
     "starting_class_growths": STUDENT_CLASS,
     "beginner_class_growths": MONK_CLASS,
-    "intermediate_class_growths": MAGE_CLASS
+    "intermediate_class_growths": MAGE_CLASS,
+    "advanced_class_growths": DARK_FLYER_CLASS,
+    "master_class_growths": DARK_FLYER_CLASS
 }
 
 PRESTON_METADATA = {
@@ -1186,7 +1630,9 @@ PRESTON_METADATA = {
     "base_growths": PRESTON_BASE_GROWTHS,
     "starting_class_growths": STUDENT_CLASS,
     "beginner_class_growths": MONK_CLASS,
-    "intermediate_class_growths": PRIEST_CLASS
+    "intermediate_class_growths": PRIEST_CLASS,
+    "advanced_class_growths": TROUBADOUR_CLASS,
+    "master_class_growths": HOLY_KNIGHT_CLASS
 }
 
 IRIS_METADATA = {
@@ -1197,7 +1643,9 @@ IRIS_METADATA = {
     "base_growths": IRIS_BASE_GROWTHS,
     "starting_class_growths": STUDENT_CLASS,
     "beginner_class_growths": MYRMIDON_CLASS,
-    "intermediate_class_growths": MERCENARY_CLASS
+    "intermediate_class_growths": MERCENARY_CLASS,
+    "advanced_class_growths": SWORDMASTER_CLASS,
+    "master_class_growths": MORTAL_SAVANT_CLASS
 }
 
 DALLAS_METADATA = {
@@ -1208,7 +1656,9 @@ DALLAS_METADATA = {
     "base_growths": DALLAS_BASE_GROWTHS,
     "starting_class_growths": STUDENT_CLASS,
     "beginner_class_growths": MYRMIDON_CLASS,
-    "intermediate_class_growths": THIEF_CLASS
+    "intermediate_class_growths": THIEF_CLASS,
+    "advanced_class_growths": ASSASSIN_CLASS,
+    "master_class_growths": ASSASSIN_CLASS
 }
 
 KETHRA_METADATA = {
@@ -1219,7 +1669,9 @@ KETHRA_METADATA = {
     "base_growths": KETHRA_BASE_GROWTHS,
     "starting_class_growths": STUDENT_CLASS,
     "beginner_class_growths": FIGHTER_CLASS,
-    "intermediate_class_growths": ARCHER_CLASS
+    "intermediate_class_growths": ARCHER_CLASS,
+    "advanced_class_growths": SNIPER_CLASS,
+    "master_class_growths": SNIPER_CLASS
 }
 
 PHINNEAS_METADATA = {
@@ -1230,7 +1682,9 @@ PHINNEAS_METADATA = {
     "base_growths": PHINNEAS_BASE_GROWTHS,
     "starting_class_growths": STUDENT_CLASS,
     "beginner_class_growths": SOLDIER_CLASS,
-    "intermediate_class_growths": CAVALIER_CLASS
+    "intermediate_class_growths": CAVALIER_CLASS,
+    "advanced_class_growths": PALADIN_CLASS,
+    "master_class_growths": PALADIN_CLASS
 }
 
 # -------- Blue Lions --------
@@ -1243,7 +1697,9 @@ MATTHIAS_METADATA = {
     "base_growths": MATTHIAS_BASE_GROWTHS,
     "starting_class_growths": HOUSE_LEADER_CLASS,
     "beginner_class_growths": SOLDIER_CLASS,
-    "intermediate_class_growths": LORD_CLASS
+    "intermediate_class_growths": LORD_CLASS,
+    "advanced_class_growths": ARMORED_GENERAL_CLASS,
+    "master_class_growths": REAPER_CLASS
 }
 
 JAMISON_METADATA = {
@@ -1254,7 +1710,9 @@ JAMISON_METADATA = {
     "base_growths": JAMISON_BASE_GROWTHS,
     "starting_class_growths": STUDENT_CLASS,
     "beginner_class_growths": FIGHTER_CLASS,
-    "intermediate_class_growths": BRIGAND_CLASS
+    "intermediate_class_growths": BRIGAND_CLASS,
+    "advanced_class_growths": WYVERN_RIDER_CLASS,
+    "master_class_growths": WYVERN_LORD_CLASS
 }
 
 HIROKO_METADATA = {
@@ -1265,7 +1723,9 @@ HIROKO_METADATA = {
     "base_growths": HIROKO_BASE_GROWTHS,
     "starting_class_growths": STUDENT_CLASS,
     "beginner_class_growths": MONK_CLASS,
-    "intermediate_class_growths": MAGE_CLASS
+    "intermediate_class_growths": MAGE_CLASS,
+    "advanced_class_growths": VALKYRIE_CLASS,
+    "master_class_growths": DARK_KNIGHT_CLASS
 }
 
 LILLIAN_METADATA = {
@@ -1276,7 +1736,9 @@ LILLIAN_METADATA = {
     "base_growths": LILLIAN_BASE_GROWTHS,
     "starting_class_growths": STUDENT_CLASS,
     "beginner_class_growths": MONK_CLASS,
-    "intermediate_class_growths": PRIEST_CLASS
+    "intermediate_class_growths": PRIEST_CLASS,
+    "advanced_class_growths": WING_TAMER_CLASS,
+    "master_class_growths": WING_TAMER_CLASS
 }
 
 WILFRED_METADATA = {
@@ -1287,7 +1749,9 @@ WILFRED_METADATA = {
     "base_growths": WILFRED_BASE_GROWTHS,
     "starting_class_growths": STUDENT_CLASS,
     "beginner_class_growths": FIGHTER_CLASS,
-    "intermediate_class_growths": ARCHER_CLASS
+    "intermediate_class_growths": ARCHER_CLASS,
+    "advanced_class_growths": SNIPER_CLASS,
+    "master_class_growths": SNIPER_CLASS
 }
 
 ODETTE_METADATA = {
@@ -1298,7 +1762,9 @@ ODETTE_METADATA = {
     "base_growths": ODETTE_BASE_GROWTHS,
     "starting_class_growths": STUDENT_CLASS,
     "beginner_class_growths": SOLDIER_CLASS,
-    "intermediate_class_growths": CAVALIER_CLASS
+    "intermediate_class_growths": CAVALIER_CLASS,
+    "advanced_class_growths": PALADIN_CLASS,
+    "master_class_growths": PALADIN_CLASS
 }
 
 BRYNN_METADATA = {
@@ -1309,7 +1775,9 @@ BRYNN_METADATA = {
     "base_growths": BRYNN_BASE_GROWTHS,
     "starting_class_growths": STUDENT_CLASS,
     "beginner_class_growths": MYRMIDON_CLASS,
-    "intermediate_class_growths": THIEF_CLASS
+    "intermediate_class_growths": THIEF_CLASS,
+    "advanced_class_growths": ASSASSIN_CLASS,
+    "master_class_growths": ASSASSIN_CLASS
 }
 
 BEATRICE_METADATA = {
@@ -1320,7 +1788,9 @@ BEATRICE_METADATA = {
     "base_growths": BEATRICE_BASE_GROWTHS,
     "starting_class_growths": STUDENT_CLASS,
     "beginner_class_growths": FIGHTER_CLASS,
-    "intermediate_class_growths": BRAWLER_CLASS
+    "intermediate_class_growths": BRAWLER_CLASS,
+    "advanced_class_growths": GRAPPLER_CLASS,
+    "master_class_growths": WAR_MASTER_CLASS
 }
 
 # -------- Golden Deer --------
@@ -1333,7 +1803,9 @@ ADONIS_METADATA = {
     "base_growths": ADONIS_BASE_GROWTHS,
     "starting_class_growths": HOUSE_LEADER_CLASS,
     "beginner_class_growths": MONK_CLASS,
-    "intermediate_class_growths": LORD_CLASS
+    "intermediate_class_growths": LORD_CLASS,
+    "advanced_class_growths": WYVERN_SAGE_CLASS,
+    "master_class_growths": LINDWURM_CLASS
 }
 
 DAISY_METADATA = {
@@ -1344,7 +1816,9 @@ DAISY_METADATA = {
     "base_growths": DAISY_BASE_GROWTHS,
     "starting_class_growths": STUDENT_CLASS,
     "beginner_class_growths": MONK_CLASS,
-    "intermediate_class_growths": PRIEST_CLASS
+    "intermediate_class_growths": PRIEST_CLASS,
+    "advanced_class_growths": WAR_MASTER_CLASS,
+    "master_class_growths": WAR_MASTER_CLASS
 }
 
 HADIYA_METADATA = {
@@ -1355,7 +1829,9 @@ HADIYA_METADATA = {
     "base_growths": HADIYA_BASE_GROWTHS,
     "starting_class_growths": STUDENT_CLASS,
     "beginner_class_growths": MONK_CLASS,
-    "intermediate_class_growths": MAGE_CLASS
+    "intermediate_class_growths": MAGE_CLASS,
+    "advanced_class_growths": WARLOCK_CLASS,
+    "master_class_growths": GREMORY_CLASS
 }
 
 ANITA_METADATA = {
@@ -1366,7 +1842,9 @@ ANITA_METADATA = {
     "base_growths": ANITA_BASE_GROWTHS,
     "starting_class_growths": STUDENT_CLASS,
     "beginner_class_growths": SOLDIER_CLASS,
-    "intermediate_class_growths": PEGASUS_SOLDIER_CLASS
+    "intermediate_class_growths": PEGASUS_SOLDIER_CLASS,
+    "advanced_class_growths": PEGASUS_KNIGHT_CLASS,
+    "master_class_growths": FALCON_KNIGHT_CLASS
 }
 
 QUINTUS_METADATA = {
@@ -1377,7 +1855,9 @@ QUINTUS_METADATA = {
     "base_growths": QUINTUS_BASE_GROWTHS,
     "starting_class_growths": STUDENT_CLASS,
     "beginner_class_growths": FIGHTER_CLASS,
-    "intermediate_class_growths": BRIGAND_CLASS
+    "intermediate_class_growths": BRIGAND_CLASS,
+    "advanced_class_growths": HERO_CLASS,
+    "master_class_growths": HERO_CLASS
 }
 
 CLARISSE_METADATA = {
@@ -1388,7 +1868,9 @@ CLARISSE_METADATA = {
     "base_growths": CLARISSE_BASE_GROWTHS,
     "starting_class_growths": STUDENT_CLASS,
     "beginner_class_growths": FIGHTER_CLASS,
-    "intermediate_class_growths": ARCHER_CLASS
+    "intermediate_class_growths": ARCHER_CLASS,
+    "advanced_class_growths": SNIPER_CLASS,
+    "master_class_growths": BOW_KNIGHT_CLASS
 }
 
 EVERETTE_METADATA = {
@@ -1399,7 +1881,9 @@ EVERETTE_METADATA = {
     "base_growths": EVERETTE_BASE_GROWTHS,
     "starting_class_growths": STUDENT_CLASS,
     "beginner_class_growths": MYRMIDON_CLASS,
-    "intermediate_class_growths": THIEF_CLASS
+    "intermediate_class_growths": THIEF_CLASS,
+    "advanced_class_growths": TRICKSTER_CLASS,
+    "master_class_growths": TRICKSTER_CLASS
 }
 
 JASPER_METADATA = {
@@ -1410,7 +1894,9 @@ JASPER_METADATA = {
     "base_growths": JASPER_BASE_GROWTHS,
     "starting_class_growths": STUDENT_CLASS,
     "beginner_class_growths": SOLDIER_CLASS,
-    "intermediate_class_growths": CAVALIER_CLASS
+    "intermediate_class_growths": CAVALIER_CLASS,
+    "advanced_class_growths": PALADIN_CLASS,
+    "master_class_growths": PALADIN_CLASS
 }
 
 # -------- Garreg Mach Knights --------
@@ -1423,7 +1909,9 @@ MARINA_METADATA = {
     "base_growths": MARINA_BASE_GROWTHS,
     "starting_class_growths": PROFESSOR_CLASS,
     "beginner_class_growths": MONK_CLASS,
-    "intermediate_class_growths": PRIEST_CLASS
+    "intermediate_class_growths": PRIEST_CLASS,
+    "advanced_class_growths": BISHOP_CLASS,
+    "master_class_growths": BISHOP_CLASS
 }
 
 LAHARO_METADATA = {
@@ -1434,7 +1922,9 @@ LAHARO_METADATA = {
     "base_growths": LAHARO_BASE_GROWTHS,
     "starting_class_growths": PROFESSOR_CLASS,
     "beginner_class_growths": FIGHTER_CLASS,
-    "intermediate_class_growths": ARMORED_KNIGHT_CLASS
+    "intermediate_class_growths": ARMORED_KNIGHT_CLASS,
+    "advanced_class_growths": FORTRESS_KNIGHT_CLASS,
+    "master_class_growths": GREAT_KNIGHT_CLASS
 }
 
 DANTE_METADATA = {
@@ -1445,7 +1935,9 @@ DANTE_METADATA = {
     "base_growths": DANTE_BASE_GROWTHS,
     "starting_class_growths": COMMANDER_CLASS,
     "beginner_class_growths": FIGHTER_CLASS,
-    "intermediate_class_growths": ARCHER_CLASS
+    "intermediate_class_growths": ARCHER_CLASS,
+    "advanced_class_growths": SNIPER_CLASS,
+    "master_class_growths": SNIPER_CLASS
 }
 
 THALIA_METADATA = {
@@ -1456,7 +1948,9 @@ THALIA_METADATA = {
     "base_growths": THALIA_BASE_GROWTHS,
     "starting_class_growths": HEADMASTER_CLASS,
     "beginner_class_growths": MYRMIDON_CLASS,
-    "intermediate_class_growths": MERCENARY_CLASS
+    "intermediate_class_growths": MERCENARY_CLASS,
+    "advanced_class_growths": SWORDMASTER_CLASS,
+    "master_class_growths": SWORDMASTER_CLASS
 }
 
 ALESSANDRA_METADATA = {
@@ -1467,7 +1961,9 @@ ALESSANDRA_METADATA = {
     "base_growths": ALESSANDRA_BASE_GROWTHS,
     "starting_class_growths": COMMANDER_CLASS,
     "beginner_class_growths": SOLDIER_CLASS,
-    "intermediate_class_growths": CAVALIER_CLASS
+    "intermediate_class_growths": CAVALIER_CLASS,
+    "advanced_class_growths": PALADIN_CLASS,
+    "master_class_growths": PALADIN_CLASS
 }
 
 ULYSSES_METADATA = {
@@ -1478,7 +1974,9 @@ ULYSSES_METADATA = {
     "base_growths": ULYSSES_BASE_GROWTHS,
     "starting_class_growths": COMMANDER_CLASS,
     "beginner_class_growths": FIGHTER_CLASS,
-    "intermediate_class_growths": BRAWLER_CLASS
+    "intermediate_class_growths": BRAWLER_CLASS,
+    "advanced_class_growths": GRAPPLER_CLASS,
+    "master_class_growths": GRAPPLER_CLASS
 }
 
 ADELINE_METADATA = {
@@ -1489,7 +1987,9 @@ ADELINE_METADATA = {
     "base_growths": ADELINE_BASE_GROWTHS,
     "starting_class_growths": COMMANDER_CLASS,
     "beginner_class_growths": FIGHTER_CLASS,
-    "intermediate_class_growths": BRIGAND_CLASS
+    "intermediate_class_growths": BRIGAND_CLASS,
+    "advanced_class_growths": WYVERN_RIDER_CLASS,
+    "master_class_growths": WYVERN_LORD_CLASS
 }
 
 ELOHIR_METADATA = {
@@ -1500,7 +2000,9 @@ ELOHIR_METADATA = {
     "base_growths": ELOHIR_BASE_GROWTHS,
     "starting_class_growths": PROFESSOR_CLASS,
     "beginner_class_growths": MONK_CLASS,
-    "intermediate_class_growths": MAGE_CLASS
+    "intermediate_class_growths": MAGE_CLASS,
+    "advanced_class_growths": WARLOCK_CLASS,
+    "master_class_growths": WARLOCK_CLASS
 }
 
 # -------- Bonus Recruits --------
@@ -1513,5 +2015,7 @@ ANNA_METADATA = {
     "base_growths": ANNA_BASE_GROWTHS,
     "starting_class_growths": MERCHANT_CLASS,
     "beginner_class_growths": FIGHTER_CLASS,
-    "intermediate_class_growths": BRIGAND_CLASS
+    "intermediate_class_growths": BRIGAND_CLASS,
+    "advanced_class_growths": WARRIOR_CLASS,
+    "master_class_growths": WARRIOR_CLASS
 }
