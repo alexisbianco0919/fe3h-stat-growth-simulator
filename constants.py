@@ -20,7 +20,7 @@ GISELLE_BASE_GROWTHS = {
     "hp": 55,
     "str": 55,
     "mag": 30,
-    "dex": 45,
+    "dex": 40,
     "spd": 60,
     "lck": 30,
     "def": 50,
@@ -840,6 +840,20 @@ ANNA_STARTING_STATS = {
     "def": 5,
     "res": 3,
     "cha": 9
+}
+
+# -------- Blank Template --------
+
+BLANK_STARTING_STATS = {
+    "hp": 0,
+    "str": 0,
+    "mag": 0,
+    "dex": 0,
+    "spd": 0,
+    "lck": 0,
+    "def": 0,
+    "res": 0,
+    "cha": 0
 }
 
 # ================= Class Base Growths =================
